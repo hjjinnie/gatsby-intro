@@ -26,7 +26,33 @@ const Layout = ({ children }) => (
         > div {
             margin-top: 0;
         }
-    }`}
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+          color: #222;
+          line-height: 1.1;
+
+          + * {
+            margin-top: 0.5 rem;
+          }
+        }
+      strong {
+        color: #222;
+      }
+
+      li {
+        margin-top: 0.25rem;
+      }
+      }
+    `}
     />
+    <header></header>
+    <main>{children}</main>
   </>
 );
+
+export default Layout;
