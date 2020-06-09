@@ -1,10 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import QueueAnim from 'rc-queue-anim';
-import { Button } from 'antd';
 import { Element } from 'rc-scroll-anim';
-import { assets } from './data';
-import bannerImg from '../images/bannerImg.svg';
 import front from '../images/front2.png';
 
 class Banner extends React.PureComponent {

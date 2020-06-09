@@ -1,13 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import { Carousel } from 'antd';
-import QueueAnim from 'rc-queue-anim';
-import OverPack from 'rc-scroll-anim/lib/ScrollOverPack';
-import { page4, assets } from './data';
 import { Row, Col, Typography, Card } from 'antd';
-import postQL from '../images/postQL.png';
-import graphQL from '../images/graphQL.png';
-import database from '../images/database.png';
 import video from '../video/final2.mp4';
 const { Title } = Typography;
 

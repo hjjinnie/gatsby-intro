@@ -1,7 +1,31 @@
 import React from 'react';
 import QueueAnim from 'rc-queue-anim';
 import { Row, Col } from 'antd';
-import { page1 } from './data';
+import reactRedux from '../images/reactredux.png';
+import nodeJs from '../images/nodejs.png';
+import aws from '../images/aws.png';
+// import { page1 } from './data';
+
+const page1 = [
+  {
+    img: reactRedux,
+    class: 'react',
+    title: 'Frontend',
+    description: 'React, Redux，Typescript, GraphQL, SASS',
+  },
+  {
+    img: nodeJs,
+    class: 'node',
+    title: 'Backend',
+    description: 'NodeJS, Express, SQL/NoSQL, OAuth, JWT',
+  },
+  {
+    img: aws,
+    class: 'aws',
+    title: 'Deployment',
+    description: 'AWS (i.e ELB/EC2/RDS), Docker',
+  },
+];
 
 export default function Page1() {
   const children = page1.map((card, i) => (

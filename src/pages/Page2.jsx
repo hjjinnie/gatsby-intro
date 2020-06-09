@@ -1,7 +1,5 @@
 import React from 'react';
 import { Row, Col, Typography, Card } from 'antd';
-import QueueAnim from 'rc-queue-anim';
-import OverPack from 'rc-scroll-anim/lib/ScrollOverPack';
 import postQL from '../images/postQL.png';
 import graphQL from '../images/graphQL.png';
 import database from '../images/database.png';

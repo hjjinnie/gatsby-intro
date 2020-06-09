@@ -1,8 +1,5 @@
 import React from 'react';
-import QueueAnim from 'rc-queue-anim';
-import OverPack from 'rc-scroll-anim/lib/ScrollOverPack';
 import { Row, Col } from 'antd';
-import { page5 } from './data';
 import tufts from '../images/tufts.png';
 import bc from '../images/bc.png';
 
